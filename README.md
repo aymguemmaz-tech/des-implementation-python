@@ -6,7 +6,8 @@ It was developed as part of my cryptography studies to understand how block ciph
 
 During my course, DES looked simple at a high level but confusing in practice.
 
-So instead of just reading slides, I decided to implement it myself to really understand:
+So instead of just reading slides, I decided to implement it myself
+to really understand:
 
 - how permutations work  
 - how S-boxes transform data  
@@ -14,7 +15,7 @@ So instead of just reading slides, I decided to implement it myself to really un
 - why XOR is used everywhere  
 - and how modes like ECB and CBC behave differently
 - 
-- ## ⚙️ How DES works
+- ##  How DES works
 
 1. Take a 64-bit block of plaintext  
 2. Apply an initial permutation  
